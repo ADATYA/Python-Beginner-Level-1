@@ -1,3 +1,6 @@
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/24f6dce5-f99a-41e4-829e-0dfe76da7a0e" />
+
+
 # Python-Beginner-Level-1
 🚀 Python Beginner to Strong Foundation
 
