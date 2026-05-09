@@ -96,9 +96,9 @@ else:
     name = user_input
     print(f"This is a string value:{name}")
     
-#.....................................................................
+#.................................................
 # Mini Poject 02 based on Function calling methods
-#.....................................................................
+#.................................................
 
 def check_data_type (data):
     if isinstance(data, bool):
@@ -114,3 +114,22 @@ def check_data_type (data):
 print(check_data_type(37))          # o/p = "This is an Integer number"
 print(check_data_type("John Doe"))  # o/p =  "This is a String"
 print(check_data_type(True))        # o/p =   "This is a Boolean value"
+
+#..........................................
+# Practice the exercise and whole solutions
+#..........................................
+# In this case, a comma separator is used within the print() function to output multiple values on a single line with an automatic space between them.
+name = 'Alice'
+print(name, type(name))
+
+is_student = True
+print(is_student, type(is_student))
+
+age = 20
+print(age, type(age))
+
+score = 80.5
+#print(isinstance(score, float))
+print(score,type(score))
+
+
