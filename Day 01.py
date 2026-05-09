@@ -97,7 +97,7 @@ else:
     print(f"This is a string value:{name}")
     
 #.....................................................................
-# Mini Poject 01 based on Data type / Variable / Function (isinstance)
+# Mini Poject 02 based on Function calling methods
 #.....................................................................
 
 def check_data_type (data):
