@@ -81,3 +81,36 @@ else:
     print("This is differnt datatypes")
 
 
+
+#.....................................................................
+# Mini Poject 01 based on Data type / Variable / Function (isinstance)
+#.....................................................................
+
+# User input 
+user_input = input("Enter anything :")
+#Input is't integer?
+if user_input.isdigit():   #isdigit = এই মেথডটি চেক করে স্ট্রিংয়ের ভেতরে শুধু সংখ্যা আছে কি না। যদি থাকে, তবেই আমরা সেটাকে int() দিয়ে সংখ্যায় রূপান্তর করতে পারি।
+    print(f"This is a integer number:{num}")
+# If doesn't integer then it's call string
+else:
+    name = user_input
+    print(f"This is a string value:{name}")
+    
+#.....................................................................
+# Mini Poject 01 based on Data type / Variable / Function (isinstance)
+#.....................................................................
+
+def check_data_type (data):
+    if isinstance(data, bool):
+        return "This is a Boolean value"
+    elif isinstance(data , int):
+        return "This is an Integer number"
+    elif isinstance(data, str):
+        return "This is a String"
+    else:
+        return "Unlock data type"
+
+## How to show the Output
+print(check_data_type(37))          # o/p = "This is an Integer number"
+print(check_data_type("John Doe"))  # o/p =  "This is a String"
+print(check_data_type(True))        # o/p =   "This is a Boolean value"
